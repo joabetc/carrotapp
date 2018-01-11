@@ -1,3 +1,8 @@
+#option-cakes:checked ~ #menu-beverages,
+#option-beverages:checked ~ #menu-cakes {
+    display: none;
+}
+
 .menu {
     width: 100%;
 }
