@@ -13,3 +13,16 @@ body {
     font-family: sans-serif;
     text-align: center;
 }
+
+input[type=radio] {
+    display: none;
+}
+
+label {
+    background-color: #563429;
+    color: white;
+    display: block;
+    font-size: 75%;
+    padding: 4em 0 1em;
+    text-transform: uppercase;
+}
