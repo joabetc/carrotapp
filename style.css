@@ -6,3 +6,10 @@
 .menu {
     width: 100%;
 }
+
+body {
+    background: #3D1A11;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
