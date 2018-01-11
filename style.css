@@ -20,9 +20,20 @@ input[type=radio] {
 
 label {
     background-color: #563429;
+    background-size: 4em;
+    background-repeat: no-repeat;
+    background-position: center top;
     color: white;
     display: block;
     font-size: 75%;
     padding: 4em 0 1em;
     text-transform: uppercase;
+}
+
+label[for=option-cakes] {
+    background-image: url(images/icone-bolos.svg);
+}
+
+label[for=option-beverages] {
+    background-image: url(images/icone-bebidas.svg);
 }
