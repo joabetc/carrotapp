@@ -41,3 +41,18 @@ label[for=option-beverages] {
 input[type=radio]:checked + label {
     background-color: #E4876D;
 }
+
+label {
+    width: 50%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+label[for=option-cakes] {
+    left: 0;
+}
+
+label[for=option-beverages] {
+    right: 0;
+}
