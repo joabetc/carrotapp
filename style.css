@@ -37,3 +37,7 @@ label[for=option-cakes] {
 label[for=option-beverages] {
     background-image: url(images/icone-bebidas.svg);
 }
+
+input[type=radio]:checked + label {
+    background-color: #E4876D;
+}
