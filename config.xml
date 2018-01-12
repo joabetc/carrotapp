@@ -15,6 +15,8 @@
   </author>
   
   <icon src="images/icon.png" />
+
+  <plugin name="cordova-plugin-splashscreen" />
   <gap:splash src="images/splash.png" />
 
   <preference name="orientation" value="portrait" />
